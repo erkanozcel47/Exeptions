@@ -19,7 +19,7 @@ public class LoopingMAp {
 		jopMap.put("ProductOvnew", "FairFax");
 		jopMap.put("ScrumMAster", "DC");
 		
-		System.out.println(jopMap);
+//		System.out.println(jopMap);
 		
 //		Set<String> keys= jopMap.keySet();
 //		
@@ -48,7 +48,7 @@ public class LoopingMAp {
 	
 		Set<Entry<String,String>> entries= jopMap.entrySet();
 		for (Entry<String, String> each : entries) {
-			System.out.println(each.getKey()+"  ");
+			System.out.print (each.getKey()+"  ");
 			System.out.println(each.getValue()+"  ");
 			
 			if(each.getKey().equals("ProductOvnew")) {
@@ -57,7 +57,7 @@ public class LoopingMAp {
 			
 		}
 		
-		System.out.println(jopMap);
+ 		System.out.println(jopMap);
 		
 	}
 
